@@ -1,8 +1,7 @@
 from http import HTTPStatus  # стандартные библиотеки
 
-from django.test import Client, TestCase  # сторонние библиотеки
-
 from api import models  # локальные импорты
+from django.test import Client, TestCase  # сторонние библиотеки
 
 
 class TaskiAPITestCase(TestCase):
